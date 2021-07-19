@@ -4,9 +4,7 @@ import argparse
 import numpy as np
 
 from transformers import imageRotation, polygonRotation, getMask
-"""
-python image_rotation.py demo/image_demo.jpg demo/img_rotate.jpg --theta 26 --phi 43 --gamma -66 --mask demo/img_mask.jpg --labels demo/image_demo_labels.txt --labels-out demo/img_rotate_labels.txt --image-label demo/img_rotate_labels.jpg
-"""
+
 
 def parse_args():
     
@@ -36,7 +34,8 @@ def parse_args():
     parser.add_argument('--labels',
                         type=str,
                         default=None,
-                        help='imput labels name.')
+                        help='imput labels text name.')
+    
     parser.add_argument('--labels-out',
                         type=str,
                         default='image_rotate_labels.txt',
@@ -45,7 +44,7 @@ def parse_args():
     parser.add_argument('--image-label',
                         type=str,
                         default=None,
-                        help='output image name.')
+                        help='output labeled image name.')
     
     args = parser.parse_args()
     return args
