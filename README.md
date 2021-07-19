@@ -6,7 +6,7 @@ Use ```image_rotation.py``` to rotate your image!
 
 Before | After
 ------------ | -------------
-<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_demo.jpg?raw=true" width="400" height="400"> | <img src="https://github.com/DanielHry/imageTransform/blob/main/demo/img_rotate.jpg?raw=true" width="400" height="400">
+<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_demo.jpg?raw=true" width="400" height="400"> | <img src="https://github.com/DanielHry/imageTransform/blob/main/demo/img_rotate.jpg?raw=true" width="403" height="503">
 
 
 Example:
@@ -29,7 +29,7 @@ python image_rotation.py demo/image_demo.jpg demo/img_rotate.jpg --theta 26 --ph
 
 You can specify ```[--mask]``` to export the mask:
 
-<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/img_mask.jpg?raw=true" width="400" height="400">
+<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/img_mask.jpg?raw=true" width="403" height="503">
 
 ## Labels
 
@@ -37,7 +37,7 @@ Transform your labels
 
 Before | After
 ------------ | -------------
-<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_demo_labels.jpg?raw=true" width="400" height="400"> | <img src="https://github.com/DanielHry/imageTransform/blob/main/demo/img_rotate_labels.jpg?raw=true" width="400" height="400">
+<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_demo_labels.jpg?raw=true" width="400" height="400"> | <img src="https://github.com/DanielHry/imageTransform/blob/main/demo/img_rotate_labels.jpg?raw=true" width="403" height="503">
 
 
 Example:
