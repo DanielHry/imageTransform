@@ -65,7 +65,7 @@ def main():
     if args.mask is not None:
         mask = getMask()
         cv2.imwrite(args.mask, mask)
-        pass
+        
     
     if args.labels is not None:
         with open(args.labels) as f:
