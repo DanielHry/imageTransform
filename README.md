@@ -33,7 +33,7 @@ You can specify ```[--mask]``` to export the mask:
 
 ## Labels
 
-Transform yours labels
+Transform your labels
 
 Before | After
 ------------ | -------------
