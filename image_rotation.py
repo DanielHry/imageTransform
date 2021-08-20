@@ -59,7 +59,7 @@ def main():
     if image is None:
         raise ValueError(f'Can not find : {args.image}')
 
-    image = imageRotation(dicRotation, image)
+    image = imageRotation(image, dicRotation)
     cv2.imwrite(args.out, image)
     
     if args.mask is not None:
