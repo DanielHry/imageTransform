@@ -89,4 +89,4 @@ poly = translate_poly(poly, y=70, x=275)
 Result:
 image | polygones
 ------------ | -------------
-<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_blend.png?raw=true" width="572" height="372"> | <img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_blend01.png?raw=true" width="572" height="372">
+<img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_blend01.png?raw=true" width="381" height="248"> | <img src="https://github.com/DanielHry/imageTransform/blob/main/demo/image_blend.png?raw=true" width="381" height="248">
