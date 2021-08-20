@@ -57,7 +57,7 @@ python image_rotation.py \
 python image_rotation.py demo/image_demo.jpg demo/img_rotate.jpg --theta 26 --phi 43 --gamma -66 --mask demo/img_mask.jpg --labels demo/image_demo_labels.txt --labels-out demo/img_rotate_labels.txt
 ```
 
-# Other transformations
+# Other Image transformations
 
 image foreground | mask | image background
 ------------ | ------------- | -------------
